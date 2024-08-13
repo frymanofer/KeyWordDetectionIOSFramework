@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.source       = { :git => "https://github.com/frymanofer/KeyWordDetectionIOSFramework.git", :tag => "#{spec.version}" }
   spec.vendored_frameworks = 'KeyWordDetection.xcframework'
-#  spec.swift_versions = ['5.0']
+  spec.swift_versions = ['5.0']
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
