@@ -13,6 +13,7 @@ To integrate the framework natively into your iOS project, follow these steps:
 Download the Framework: Manually add the KeyWordDetection framework to your Xcode project.
 Modify Your Podfile: Add the necessary dependencies and configurations.
 
+<text>
 target 'MyProjectName' do
   # Your existing configurations...
 
@@ -23,7 +24,7 @@ target 'MyProjectName' do
   pod 'onnxruntime-objc', '~> 1.18.0'
   pod 'ios-voice-processor', '~> 1.1.0'
 end
-
+</text>
 Note: We are working on supporting various linkage types; currently, linkage must be static.
 
 React Native Integration
