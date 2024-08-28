@@ -11,8 +11,10 @@ Native iOS Integration
 To integrate the framework natively into your iOS project, follow these steps:
 
 Download the Framework: Manually add the KeyWordDetection framework to your Xcode project.
+<br>
 Modify Your Podfile: Add the necessary dependencies and configurations.
 
+<body>
 target 'MyProjectName' do
   \# Your existing configurations...
 
@@ -23,6 +25,7 @@ target 'MyProjectName' do
   pod 'onnxruntime-objc', '~> 1.18.0'
   pod 'ios-voice-processor', '~> 1.1.0'
 end
+<\body>
 
 Note: We are working on supporting various linkage types; currently, linkage must be static.
 
@@ -79,3 +82,14 @@ For any questions or support, please contact us at:
 
 Email: info@davoice.io
 Website: DaVoice.io
+
+<h2>Links</h2>
+<ul>
+Here are wakeword detection github links per platform:
+<li><strong>For react Native got to:</li>  https://github.com/frymanofer/ReactNative_WakeWordDetection
+<li><strong>For Android:</li>
+  https://github.com/frymanofer/KeywordsDetectionAndroidLibrary
+<li><strong>For IOS framework:</li>
+   With React Native bridge: https://github.com/frymanofer/KeyWordDetectionIOSFramework <br>
+   Sole Framework: https://github.com/frymanofer/KeyWordDetection
+</ul>
